@@ -66,7 +66,7 @@
 .box1{
     text-align: right;
     width: 30vw;
-    margin: 0px 0px 0px 190px ;
+    margin: 0% 0% 0% 10% ;
 }
 .box2{
     text-align: left;
@@ -141,10 +141,8 @@ footer{
     text-align: center;
     font-size: 1.3rem;
     margin-top: 50px;
-    transition: 1s;
-}
-.brands :hover{
-    transform: scale(1.2);
+    transition-property: transform ;
+
 }
 .fa-brands{
     padding: 8px;
@@ -153,6 +151,7 @@ footer{
 .brands :hover{
     color: #fa631c;
     background: #ffffff;
+    transform: scale(1.2);
 }
 #slider{
     overflow: hidden;
@@ -220,7 +219,6 @@ footer{
     color: white;
     margin-left: 8.6%;
     margin-right: 8.6%;
-    padding-left: 1%;
     padding-bottom: 2.5%;
     padding-top: 3%;
 }
@@ -263,4 +261,44 @@ footer{
 }
 .panx{
     margin-top: 20%;
+}
+@media (max-width: 852px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        width: 83%;
+    }
+    .box2{
+        width: 81%;
+    }
+    .pane1{
+        margin: 0;
+    }
+    .pane2{
+        margin: 0;
+        padding-bottom: 7%;
+    }
+    .pan1{
+        padding: 0% 13%;
+    }
+    .panx{
+        margin-top: 11%;
+    }
+}
+@media (max-width:690px ){
+    .pan1{
+        padding: 0% 12%;
+    }
+}
+@media (max-width:580px ){
+    .pan1{
+        padding: 0% 10%;
+    }
+}
+@media (max-width:450px ){
+    .pan1{
+        padding: 0% 8.3%;
+    }
 }
