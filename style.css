@@ -94,9 +94,28 @@
     width: 100%;
     background-color: rgb(101, 101, 98);
     border-radius: 10px;
-    
 }
-@media (max-width: 1312px) {
+ @media (max-width:1316px){
+    #navbar ul li a {
+        padding: 10px 15px;
+    }
+}
+@media (max-width:1238px){
+    #navbar ul li a {
+        padding: 10px 11px;
+    }
+} 
+@media (max-width:1126px){
+    #navbar ul li a {
+        padding: 10px 8px;
+    }
+}
+@media (max-width:1053px){
+    #navbar ul li a {
+        padding: 10px 6px;
+    }
+}   
+@media (max-width: 992px) {
         .toggle-button {
         display: flex;
     }
@@ -302,3 +321,4 @@ footer{
         padding: 0% 8.3%;
     }
 }
+    
